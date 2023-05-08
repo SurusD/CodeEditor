@@ -220,23 +220,6 @@ public class Editor extends EditText {
 		return logger;
 	}
 
-	public int indexOfComment(String text, int start, int end) {
-		return indexOfComment(text.substring(start, end));
-	}
-
-	public int indexOfComment(int start, int end) {
-		return indexOfComment(getText().toString(), start, end);
-	}
-
-	public int indexOfComment(String text) {
-
-		return text.indexOf("\"");
-	}
-
-	public boolean isComment(String character) {
-		return character == "\"";
-	}
-
 	@Override
 	public void onTextChanged(CharSequence newText, int start, int before_len, int after_len) {
 		super.onTextChanged(newText, start, before_len, after_len);
