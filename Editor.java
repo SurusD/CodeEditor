@@ -39,10 +39,10 @@ public class Editor extends EditText {
 			case ("html"):
 
 				break;
-			}
                         /*case ("any lang"):
                                   return PatternGroup.parse(new ColoredPattern("#color","regex"))
                         */
+                        }
 			return null;
 		}
 	}
