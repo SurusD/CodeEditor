@@ -40,6 +40,9 @@ public class Editor extends EditText {
 
 				break;
 			}
+                        /*case ("any lang"):
+                                  return PatternGroup.parse(new ColoredPattern("#color","regex"))
+                        */
 			return null;
 		}
 	}
