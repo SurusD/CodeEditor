@@ -44,7 +44,7 @@ public class Editor extends EditText {
 		}
 		
 		public void removeLanguage(String language_in_lower_case,PatternGroup pg){
-			language_in_lower_case.remove(language_in_lower_case);
+			languages_in_lower_case.remove(language_in_lower_case);
 		}
 	}
 
