@@ -36,7 +36,7 @@ public class Editor extends EditText {
 
 			case ("java script"):
 				return LanguagesSyntaxHighlightPatterns.getPatternsForLanguage("JavaScript");
-                        /*case ("any lang"):
+                        /*case ("language name example: java"):
                                   return PatternGroup.parse(new ColoredPattern("#color","regex"))
                         */
                         }
